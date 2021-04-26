@@ -1,0 +1,218 @@
+$(document).ready(function () {
+    $("#hayper-bottom, #hayper-top").on('click', function () {
+        var loader = $('#payment-loader');
+        $.ajax({
+            type: "POST",
+            dataType: 'json',
+            url: 'https://aleef.com/orders/'+this.dataset.order+'/express-checkout',
+            cache: false,
+            beforeSend: function(settings) {
+                loader.addClass('active');
+
+                return settings;
+            },
+        })
+            .done(function(response){
+                console.log(response);
+                document.getElementById('payment-iframe').src = response;
+
+                $('#payment-modal').modal('show');
+            })
+            .fail(function(jqXHR, textStatus, errorThrown){
+                alert('Error : ' + errorThrown);
+            });
+
+        // $('#payment-modal').modal('show');
+        $('#payment-iframe').load(function () {
+            $(this).contents().find('.hyperpay-header').css("display", "none");
+        })
+    });
+
+    var swiper = new Swiper('#category-home-slider', {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        loop: false,
+        autoplay: {
+            delay: 3000,
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 5
+            },
+            768: {
+                slidesPerView: 3,
+                loop: true
+            },
+            640: {
+                slidesPerView: 2,
+                loop: true
+            },
+            320: {
+                slidesPerView: 2,
+                loop: true
+            }
+        }
+    });
+    new Swiper('#large-slider', {
+        loop: true,
+        autoplay: {
+            delay: 7000,
+        },
+    });
+
+    var companies = new Swiper('#slider_companies', {
+        slidesPerView: 6,
+        spaceBetween: 20,
+        loop: false,
+        autoplay: {
+            delay: 3000,
+        },
+        navigation: {
+            nextEl: '.swiper-button-companies-next',
+            prevEl: '.swiper-button-companies-prev',
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 6
+            },
+            768: {
+                slidesPerView: 3,
+                loop: true
+            },
+            640: {
+                slidesPerView: 2,
+                loop: true
+            },
+            320: {
+                slidesPerView: 2,
+                loop: true
+            }
+        }
+    });
+    var latest_prooduct = new Swiper('#latest-product-home-slider', {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        loop: false,
+        autoplay: {
+            delay: 3000,
+        },
+        navigation: {
+            nextEl: '.latest-product-home-slider-next',
+            prevEl: '.latest-product-home-slider-prev',
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 5
+            },
+            768: {
+                slidesPerView: 3,
+                loop: true
+            },
+            640: {
+                slidesPerView: 2,
+                loop: true
+            },
+            320: {
+                slidesPerView: 2,
+                loop: true
+            }
+        }
+    });
+
+    var offers_prooduct = new Swiper('#latest-product-offers-slider', {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        loop: false,
+        autoplay: {
+            delay: 3000,
+        },
+        navigation: {
+            nextEl: '.offers-product-home-slider-next',
+            prevEl: '.offers-product-home-slider-prev',
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 5
+            },
+            768: {
+                slidesPerView: 3,
+                loop: true
+            },
+            640: {
+                slidesPerView: 2,
+                loop: true
+            },
+            320: {
+                slidesPerView: 2,
+                loop: true
+            }
+        }
+    });
+
+    var best_seller = new Swiper('#best-seller-product-home-slider', {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        loop: false,
+        autoplay: {
+            delay: 3000,
+        },
+        navigation: {
+            nextEl: '.best-seller-product-home-slider-next',
+            prevEl: '.best-seller-product-home-slider-prev',
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 5
+            },
+            768: {
+                slidesPerView: 3,
+                loop: true
+            },
+            640: {
+                slidesPerView: 2,
+                loop: true
+            },
+            320: {
+                slidesPerView: 2,
+                loop: true
+            }
+        }
+    });
+    $('.target-menu').click(function(){
+        $('.sidebar').sidebar({
+            transition: 'overlay',
+        }).sidebar('toggle')
+    });
+    $('.accordion').accordion();
+
+    const lastPoints = parseInt($('#sylius_cart_points').val());
+
+    const maxPoints = (parseInt($('#sylius_cart_points').attr('max'))+(lastPoints*10))/10;
+
+    $('#sylius_cart_points').on('change paste keyup', function () {
+        if ($(this).val() > maxPoints) {
+            if (customerPoints >= maxPoints) {
+                $(this).val(maxPoints)
+            } else if (customerPoints < maxPoints) {
+                $(this).val(customerPoints)
+            }
+        }
+
+
+        // if (maxPoints > customerPoints) {
+        //     $(this).val(customerPoints);
+        // } else if(customerPoints >= maxPoints){
+        //     $(this).val(maxPoints)
+        // }
+        // if ($(this).val() > maxPoints) {
+        //     $(this).val(maxPoints)
+        // }
+    })
+
+    $('#payment-iframe').contents().find('.hyperpay-header').css("display", "none");
+
+    $('.ui.ak-accordion > .ak-title').click(function(e){
+        e.preventDefault();
+        $(this).next().slideToggle();
+    });
+});

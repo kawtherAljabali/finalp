@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdbadef4-8030-494f-a97c-9f96351af5a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.blade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/.idea/LP3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/public/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/public/css/custom2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/admin_dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/admin_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/layout/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/studentpage.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/LP3/resources/views/students.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/Authtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/New folder/Authtest/app/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/RegisterTask/.idea/RegisterTask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/RegisterTask/resources/views/UsersTable.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/RegisterTask/resources/views/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/RegisterTask/resources/views/homereg.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/RegisterTask/resources/views/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/Studenttask/.idea/Studenttask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/Studenttask/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/hsoob.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/hsoob/resources/views/post/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/laravel-basics-master/.idea/orange.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/register_task_lana/RegisterTask/.idea/RegisterTask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/register_task_lana/Task2/.idea/RegisterTask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/register_task_lana/edwin_registration_crud_with_database/.idea/laravel_registration_db - Copy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/register_task_lana/edwin_registration_crud_with_database/.idea/laravel_registration_db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/register_task_lana/formLaravel/.idea/formLaravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/Form.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/resources/views/layout/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/resources/views/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/resources/views/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Form/resources/views/users/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Proj1/.idea/Proj1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Proj1/resources/views/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/Proj1/resources/views/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/one-to-many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-many/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/one-to-one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hasoob/udemy/one-to-one/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/cool/resources/views/admin_dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/cool/resources/views/hangout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/cool/resources/views/hangoutlogin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/cool/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/light-bootstrap-dashboard-master/BS3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/light-bootstrap-dashboard-master/BS3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../live code/light-bootstrap-dashboard-master/BS3/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mOAwVzaEZFtTnuzB7aiUUjOaaZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdbadef4-8030-494f-a97c-9f96351af5a9" name="Default Changelist" comment="" />
+      <created>1609354503376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609354503376</updated>
+      <workItem from="1609354504706" duration="1227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
